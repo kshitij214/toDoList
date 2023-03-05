@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(120deg , #96c7d6 , #dfe22d);
+    color: white ;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+header
+{
+    font-size: 1.5rem;
+}
+header,form
+{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input, button
+{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background: white;
+}
+button
+{
+    color: #dfe22d;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover
+{
+    color: white;
+    background: #dfe22d;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items
+{
+    min-width: 30%;
+    list-style: none;
+}
+.todo
+{
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.todo li
+{
+    flex:1;
+}
+.lst
+{
+    padding: 0rem 0.5rem;
+}
+.fa-trash,.fa-check
+{
+    pointer-events: none;
+}
+.Completed
+{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall
+{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
